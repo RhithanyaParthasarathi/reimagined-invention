@@ -1,0 +1,12 @@
+name: CI/CD Pipeline
+
+on:
+  pull_request:
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Say hi
+        run: echo "this is a workflow that ran during a PR"
