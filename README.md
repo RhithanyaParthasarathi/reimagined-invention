@@ -1,4 +1,5 @@
-# reimagined-invention
+git commit -m "Update README with detailed information"
+git push# reimagined-invention
 
 ## Overview
 
@@ -68,3 +69,5 @@ This project is licensed under the [LICENSE NAME] - see the LICENSE file for det
 Feel free to reach out with questions, suggestions, or feedback!
 
 Project Link: [reimagined-invention](https://github.com/yourusername/reimagined-invention)
+
+another change
