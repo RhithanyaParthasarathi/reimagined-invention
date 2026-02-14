@@ -66,8 +66,3 @@ This project is licensed under the [LICENSE NAME] - see the LICENSE file for det
 
 ## Contact
 
-Feel free to reach out with questions, suggestions, or feedback!
-
-Project Link: [reimagined-invention](https://github.com/yourusername/reimagined-invention)
-
-another change
