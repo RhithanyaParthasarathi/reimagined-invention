@@ -1,47 +1,12 @@
 name: CI/CD Pipeline
 
 on:
-  push:
-    branches: [ main, infinity ]
   pull_request:
-    branches: [ main ]
 
 jobs:
-  build:
+  demo:
     runs-on: ubuntu-latest
-    
+
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
-      
-    - name: Set up Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '18'
-        
-    - name: Install dependencies
-      run: npm install
-      
-    - name: Run tests
-      run: npm test
-      
-    - name: Build project
-      run: npm run build
-      
-  lint:
-    runs-on: ubuntu-latest
-    
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
-      
-    - name: Set up Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '18'
-        
-    - name: Install dependencies
-      run: npm install
-      
-    - name: Run linter
-      run: npm run lint
+      - name: Say hi
+        run: echo "this is a workflow that ran during a PR"
